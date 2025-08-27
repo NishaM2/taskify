@@ -10,7 +10,7 @@ import { useState } from "react";
 export default function Terminal() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   
-  const mobileHeights = ["0.8rem", "1.3rem", "2.5rem", "0.7rem", "1.6rem", "1.2rem", "2rem"];
+  const mobileHeights = ["1.5rem", "2.3rem", "4rem", "1.2rem", "2.6rem", "2.2rem", "3rem"];
   
   const desktopHeights = ["2rem", "3.25rem", "6.25rem", "1.75rem", "4rem", "3rem", "5rem"];
   
@@ -223,7 +223,7 @@ export default function Terminal() {
                       hidden: {},
                       show: {
                         transition: {
-                          staggerChildren: 0.1,
+                          staggerChildren: 0.2,
                         },
                       },
                     }}
@@ -232,20 +232,20 @@ export default function Terminal() {
                       <motion.div
                         key={i}
                         variants={{
-                          hidden: { opacity: 0, y: 10 },
+                          hidden: { opacity: 0, y: 20 },
                           show: { opacity: 1, y: 0 },
                         }}
-                        transition={{ duration: 1 }}
+                        transition={{ duration: 2 }}
                         className="flex items-center justify-between text-[0.55rem] border border-slate-200 rounded p-1.5 bg-slate-50">
                         <div className="flex items-center gap-1">
                           <IconSquare size={8} stroke={1.5} />
                           <span className="font-medium">{item.name}</span>
                         </div>
-                        <div className="flex items-center gap-2">
-                          <div className="flex items-center gap-1 w-8">
+                        <div className="flex items-center gap-5">
+                          <div className="flex items-center gap-1 w-10">
                             <div
                               className="h-1 bg-violet-400 rounded"
-                              style={{ width: `${item.percent / 3}%` }}
+                              style={{ width: `${item.percent / 1}%` }}
                             ></div>
                             <span>{item.percent}%</span>
                           </div>
@@ -278,7 +278,7 @@ export default function Terminal() {
                     <span className="text-[0.55rem] text-gray-500">+ 749 increased</span>
                   </div>
                   
-                  <div className="h-16 flex items-end gap-1 mb-1">
+                  <div className="h-25 flex items-end gap-1 mb-1">
                     {mobileHeights.map((h, i) => (
                       <motion.div
                         key={i}

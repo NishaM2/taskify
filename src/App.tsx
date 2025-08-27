@@ -12,7 +12,7 @@ export default function App () {
    
     return ( 
      <div className="flex-col justify-center"> 
-      <div id="home" className="h-[100vh] w-full flex justify-center p-5"> 
+      <div id="home" className="h-[100vh] w-full flex justify-center p-2 lg:p-5"> 
         <div className="h-[100vh] w-full flex justify-center rounded-2xl overflow-hidden">
 
           <div className="flex md:hidden">
@@ -50,11 +50,11 @@ export default function App () {
         <TrustedBy/>
       </div>
 
-      <div id="features" className="pt-20 min-h-screen lg:h-screen bg-slate-50">
+      <div id="features" className="lg:pt-20 min-h-screen lg:h-screen bg-slate-50">
         <Features/>
       </div>
 
-      <div id="testimonials" className="pt-20 min-h-screen lg:h-screen bg-gradient-to-b from-slate-50 via-violet-200 to-slate-50">
+      <div id="testimonials" className="pt-8 lg:pt-20 min-h-screen lg:h-screen bg-gradient-to-b from-slate-50 via-violet-200 to-slate-50">
           <Testimonial/>
       </div>
 

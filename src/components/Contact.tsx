@@ -5,7 +5,7 @@ export default function Contact() {
     return(    
         <div className="min-h-screen flex flex-col ">
             <div className="mt-40 flex flex-col gap-5 justify-center items-center text-white">
-                <h1 className="text-2xl lg:text-5xl/15 font-semibold font-Nav lg:w-1/2 w-2/3 text-center">
+                <h1 className="text-2xl lg:text-5xl/15 font-bold font-Nav lg:w-1/2 w-2/3 text-center">
                     Join us! Be Part of the Smart Work Revolution
                 </h1>
                 <p className="font-Nav w-2/3 lg:w-1/3 text-center text-xs lg:text-sm">
@@ -37,7 +37,7 @@ export default function Contact() {
                             Send
                         </button>
                     </div>
-                    <div className="font-semibold text-sm flex gap-5 cursor-pointer">
+                    <div className="font-semibold text-[0.5rem] lg:text-sm flex gap-5 cursor-pointer">
                         <h1>Privacy Policy</h1>
                         <h1>Terms of Use</h1>
                         <h1>Cancellation &  Refund</h1>
