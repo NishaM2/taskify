@@ -37,7 +37,7 @@ export default function Contact() {
                             Send
                         </button>
                     </div>
-                    <div className="font-semibold text-[0.5rem] lg:text-sm flex gap-5 cursor-pointer">
+                    <div className="font-semibold text-[0.6rem] lg:text-sm flex justify-center items-center gap-5 cursor-pointer">
                         <h1>Privacy Policy</h1>
                         <h1>Terms of Use</h1>
                         <h1>Cancellation &  Refund</h1>

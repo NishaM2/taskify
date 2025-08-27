@@ -5,18 +5,18 @@ export default function Pricing () {
     return (
         <div className="flex flex-col justify-center items-center pt-8 gap-9">
             <div className="flex flex-col items-center justify-center gap-3">
-                <h1 className="font-semibold text-2xl lg:text-5xl text-center font-Nav">Straightforward Pricing <br/>Custom Integrations</h1>
+                <h1 className="font-bold lg:font-semibold text-2xl lg:text-5xl text-center font-Nav">Straightforward Pricing <br/>Custom Integrations</h1>
                 <h1 className="text-xs lg:text-[0.9rem] text-gray-700 text-center font-Nav">Consistent Pricing and Value Each Month, with <br/>the flexibility to Cancel Anytime</h1>
             </div>
 
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 lg:gap-5 gap-10 font-Nav">
                 <div className="flex flex-col px-8 py-4 rounded-3xl gap-4 shadow-xl border border-gray-200 bg-gradient-to-br from-slate-50 via-violet-100 to-violet-300 mx-10 lg:mx-0">
                     <div className="flex flex-col gap-2">
-                        <h1 className="font-semibold text-xl">Starter Plan</h1>
+                        <h1 className="font-bold lg:font-semibold text-xl">Starter Plan</h1>
                         <h1 className="text-[0.9rem]">Perfect for individuals or small teams <br/> getting started</h1>
                     </div>
                     <div className="flex gap-1.5 items-center">
-                        <h1 className="font-semibold text-2xl font-Nav">
+                        <h1 className="font-bold lg:font-semibold text-2xl font-Nav">
                             <CountUp end={1499} duration={2} separator="," prefix="$" enableScrollSpy />
                         </h1>
                         <p>/Per month</p>
@@ -50,11 +50,11 @@ export default function Pricing () {
 
                 <div className="flex flex-col px-8 py-4 rounded-3xl gap-4 shadow-xl border-1  bg-gradient-to-br from-slate-50 via-violet-100 to-violet-300 mx-10 lg:mx-0">
                     <div className="flex flex-col gap-2">
-                        <h1 className="font-semibold text-xl">Enterprise Plan</h1>
+                        <h1 className="font-bold lg:font-semibold text-xl">Enterprise Plan</h1>
                         <h1 className="text-[0.9rem]">Designed for businesses managing large<br/> teams & workflows.</h1>
                     </div>
                     <div className="flex gap-1.5 items-center">
-                        <h1 className="font-semibold text-2xl font-Nav">
+                        <h1 className="font-bold lg:font-semibold text-2xl font-Nav">
                             <CountUp end={4999} duration={2} separator="," prefix="$" enableScrollSpy />
                         </h1>
                         <p>/Per month</p>
@@ -88,11 +88,11 @@ export default function Pricing () {
 
                 <div className="flex flex-col px-8 py-4 rounded-3xl gap-4 border border-gray-200 shadow-4xl bg-gradient-to-br from-slate-50 via-violet-100 to-violet-300 mx-10 lg:mx-0">
                     <div className="flex flex-col gap-2">
-                        <h1 className="font-semibold text-xl">Pro Plan</h1>
+                        <h1 className="font-bold lg:font-semibold text-xl">Pro Plan</h1>
                         <h1 className="text-[0.9rem]">Great for growing teams who need <br/> collaboration tools.</h1>
                     </div>
                     <div className="flex gap-1.5 items-center">
-                        <h1 className="font-semibold text-xl font-Nav">
+                        <h1 className="font-bold lg:font-semibold text-xl font-Nav">
                             <CountUp end={3699} duration={2} separator="," prefix="$" enableScrollSpy />
                         </h1>
                         <p>/Per month</p>

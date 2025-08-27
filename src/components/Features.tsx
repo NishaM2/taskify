@@ -6,7 +6,7 @@ export default function Features() {
     <div className="flex flex-col justify-center items-center gap-8 px-4 sm:px-6 lg:px-12 py-8">
 
       <div className="max-w-3xl flex flex-col items-center gap-4 text-center">
-        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-Nav font-semibold">
+        <h1 className="text-2xl sm:text-3xl lg:text-4xl font-Nav font-bold lg:font-semibold">
           Optimize Time and <br /> Complete More Tasks
         </h1>
         <h1 className="text-slate-700 text-sm sm:text-base px-5">
@@ -82,7 +82,7 @@ export default function Features() {
             </div>
 
             <div className="flex flex-col justify-center items-center gap-1 mb-2">
-              <h1 className="font-medium text-lg sm:text-xl">Improve collaboration</h1>
+              <h1 className="lg:font-medium font-bold text-lg sm:text-xl">Improve collaboration</h1>
               <h1 className="text-xs sm:text-sm text-center px-10 text-slate-600 font-Nav">
                 Get your teams working together, even if they're far apart
               </h1>
@@ -111,7 +111,7 @@ export default function Features() {
             </div>
 
             <div className="flex flex-col justify-center items-center gap-1 mb-2">
-              <h1 className="font-medium text-lg sm:text-xl">Automate work</h1>
+              <h1 className="lg:font-medium text-lg sm:text-xl font-bold">Automate work</h1>
               <h1 className="text-xs sm:text-sm text-center px-8 text-slate-600 font-Nav">
                 Streamline business processes without breaking a sweat
               </h1>
@@ -192,7 +192,7 @@ export default function Features() {
             </div>
 
             <div className="flex flex-col justify-center items-center gap-1 mb-2">
-              <h1 className="font-medium text-xl sm:text-xl">Enhance Visibility</h1>
+              <h1 className="lg:font-medium text-xl sm:text-xl font-bold">Enhance Visibility</h1>
               <h1 className="text-xs sm:text-sm text-center px-10 text-slate-600 font-Nav">
                 Ditch the needless meeting and repetitive updates. With a single source
               </h1>

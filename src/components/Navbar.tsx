@@ -70,10 +70,10 @@ export default function Navbar() {
               onClick={() => setIsOpen(false)}
             />
             
-            <div className={`absolute top-0 right-10 rounded-2xl shadow-lg flex flex-col p-4 gap-2 z-50 transition-all duration-300 ${
+            <div className={`absolute top-0 right-0 w-full rounded-2xl shadow-lg flex flex-col p-4 gap-2 z-50 transition-all duration-300 ${
               isScrolled 
-                ? 'bg-white/100 backdrop-blur-md ' 
-                : 'bg-white'
+                ? 'backdrop-blur-xl bg-violet-100/100' 
+                : 'backdrop-blur-xl bg-violet-100/100'
             }`}>
               
               <button onClick={() => setIsOpen(false)} className="self-end p-1 rounded-lg hover:bg-gray-200/50 transition-colors">

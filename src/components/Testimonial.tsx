@@ -7,7 +7,7 @@ export default function Testimonial() {
 
         <div className="max-w-[800px] w-full flex flex-col items-center mt-10 gap-5 text-center">
             <h1 className="border rounded-xl px-3 py-1 text-xs">Testimonials</h1>
-            <h1 className="font-semibold text-2xl sm:text-3xl lg:text-4xl font-Nav">
+            <h1 className="font-bold lg:font-semibold text-2xl sm:text-3xl lg:text-4xl font-Nav">
                 Our Trusted Clients
             </h1>
             <h1 className="text-slate-800 text-sm sm:text-base">
@@ -32,7 +32,7 @@ export default function Testimonial() {
                 <div className="flex gap-2 items-center">
                     <img src="https://i.pravatar.cc/40?img=5" alt="Olivia" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"/>
                     <div>
-                        <h1 className="font-semibold text-sm sm:text-base">Olivia</h1>
+                        <h1 className="font-bold lg:font-semibold text-sm sm:text-base">Olivia</h1>
                         <h1 className="text-xs sm:text-sm text-slate-600">Product Manager</h1>
                     </div>
                 </div>
@@ -53,7 +53,7 @@ export default function Testimonial() {
                 <div className="flex gap-2 items-center">
                     <img src="https://randomuser.me/api/portraits/men/32.jpg" alt="Aarav S" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"/>
                     <div>
-                        <h1 className="font-semibold text-sm sm:text-base">Aarav S</h1>
+                        <h1 className="font-bold lg:font-semibold text-sm sm:text-base">Aarav S</h1>
                         <h1 className="text-xs sm:text-sm text-slate-600">Software Engineer</h1>
                     </div>
                 </div>
@@ -74,7 +74,7 @@ export default function Testimonial() {
                 <div className="flex gap-2 items-center">
                     <img src="https://randomuser.me/api/portraits/women/44.jpg" alt="Luna" className="w-8 h-8 sm:w-10 sm:h-10 rounded-full object-cover"/>
                     <div>
-                        <h1 className="font-semibold text-sm sm:text-base">Luna</h1>
+                        <h1 className="font-bold lg:font-semibold text-sm sm:text-base">Luna</h1>
                         <h1 className="text-xs sm:text-sm text-slate-600">Product Designer</h1>
                     </div>
                 </div>
