@@ -12,7 +12,7 @@ export default function App () {
    
     return ( 
      <div className="flex-col justify-center"> 
-      <div id="home" className="h-[100vh] w-full flex justify-center p-2 lg:p-5"> 
+      <div id="home" className="h-[100vh] w-full flex justify-center p-3 lg:p-5"> 
         <div className="h-[100vh] w-full flex justify-center rounded-2xl overflow-hidden">
 
           <div className="flex md:hidden">
