@@ -29,7 +29,7 @@ export default function Navbar() {
         
         <div className={`hidden md:flex rounded-4xl h-[50px] justify-center items-center gap-3 transition-all duration-300 ${
           isScrolled 
-            ? ' backdrop-blur-sm  w-[470px]' 
+            ? '' 
             : 'bg-white w-[470px]'
         }`}>
 

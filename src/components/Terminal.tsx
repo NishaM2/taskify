@@ -28,12 +28,7 @@ export default function Terminal() {
         <div className="w-full max-w-sm mx-auto bg-white rounded-2xl shadow-xl flex flex-col overflow-hidden">
           {/* Mobile Browser Header */}
           <div className="h-8 flex items-center gap-2 border-b border-slate-100 px-3">
-            <div className="flex gap-1">
-              <span className="inline-block w-2 h-2 rounded-full bg-red-400"></span>
-              <span className="inline-block w-2 h-2 rounded-full bg-yellow-400"></span>
-              <span className="inline-block w-2 h-2 rounded-full bg-green-400"></span>
-            </div>
-            <div className="bg-slate-100 rounded-xl flex-1 flex items-center text-xs h-6 px-2 gap-2 max-w-32">
+            <div className="bg-slate-100 rounded-xl flex-1 flex items-center text-xs h-6 px-2 gap-2 max-w-62">
               <svg className="w-2.5 h-2.5" fill="none" viewBox="0 0 24 24">
                 <path stroke="currentColor" strokeLinecap="round" strokeWidth="2" d="m21 21-3.5-3.5M17 10a7 7 0 1 1-14 0 7 7 0 0 1 14 0Z"/>
               </svg>

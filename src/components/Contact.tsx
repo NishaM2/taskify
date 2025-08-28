@@ -1,5 +1,5 @@
 import { IconMail} from '@tabler/icons-react';
-import logo from "../../public/taskify.jpg"
+import logo from "../../public/taskify.png"
 
 export default function Contact() {
     return(    
@@ -15,7 +15,7 @@ export default function Contact() {
                     Book a Call
                 </div>
             </div>
-            <div className="flex lg:flex-row flex-col justify-between mt-30">
+            <div className="flex lg:flex-row flex-col justify-between mt-30 ">
                 <div className="flex flex-col lg:w-1/3 w-2/3 gap-2 p-5">
                     <div className='flex gap-1 items-center'>
                         <img src={logo} alt="logo" className="w-4 h-4 rounded-full object-cover"/>

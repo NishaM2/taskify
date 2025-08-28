@@ -35,7 +35,7 @@ export default function TrustedBy () {
   return (
     <div className="relative max-h-40 h-full w-full flex flex-col items-center justify-center lg:mb-0 mb-20 overflow-hidden">
       <div className="text-slate-800 font-Nav font-medium">Trusted by our Best clients</div>
-      <div className="flex animate-infinite-scroll gap-2 perspective-[1000px] transform-3d">
+      <div className="flex animate-infinite-scroll perspective-[1000px] transform-3d">
         {Array.from({ length: 6 * items.length }, (_, i) => {
           const { logo, name } = items[i % items.length];
           return (
@@ -46,8 +46,8 @@ export default function TrustedBy () {
           );
         })}
       </div>
-      <div className="pointer-events-none absolute left-0 top-0 h-full w-30 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
-      <div className="pointer-events-none absolute right-0 top-0 h-full w-30 bg-gradient-to-l from-white via-white/80 to-transparent"></div>
+      <div className="pointer-events-none absolute left-0 top-0 h-full w-20 lg:w-30 bg-gradient-to-r from-white via-white/80 to-transparent"></div>
+      <div className="pointer-events-none absolute right-0 top-0 h-full w-20 lg:w-30 bg-gradient-to-l from-white via-white/80 to-transparent"></div>
     </div>
   );
 }

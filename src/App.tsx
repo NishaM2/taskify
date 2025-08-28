@@ -24,7 +24,7 @@ export default function App () {
           </div>
 
           <div className="hidden md:flex">
-            {[...Array,...Array,...Array].map((box) => (  
+            {[...Array,...Array,...Array,...Array].map((box) => (  
               <div className="h-full w-[40px] flex shadow-2xl bg-gradient-to-b from-slate-200 via-violet-300 to-violet-600 "> 
                 {box} 
               </div>

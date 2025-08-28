@@ -93,7 +93,7 @@ export default function Features() {
 
           <motion.div initial={{ opacity: 0, y: 40 }} whileInView={{ opacity: 1, y: 0 }} transition={{ duration: 0.6, delay: 0.5 }} className="bg-white rounded-xl shadow-xl flex flex-col">
             <div className="rounded-xl m-3 bg-gradient-to-t from-violet-200 to-slate-50 flex justify-center items-center">
-              <div className="bg-white rounded-xl flex flex-col gap-2 border-slate-300 px-3 py-2 w-full max-w-sm  m-3">
+              <div className="bg-white rounded-xl flex flex-col gap-2 border-slate-300 px-3 py-2 w-full max-w-sm  m-3 xl:m-4">
                 <div className="flex flex-col p-1 gap-1 text-xs border-b border-gray-300">
                   <h1 className="font-medium">Daily Standup - Development</h1>
                   <h1>11.30 a.m - 13.30 p.m</h1>
@@ -110,7 +110,7 @@ export default function Features() {
               </div>
             </div>
 
-            <div className="flex flex-col justify-center items-center gap-1 mb-2">
+            <div className="flex flex-col justify-center items-center gap-1 mb-2 ">
               <h1 className="lg:font-medium text-lg sm:text-xl font-bold">Automate work</h1>
               <h1 className="text-xs sm:text-sm text-center px-8 text-slate-600 font-Nav">
                 Streamline business processes without breaking a sweat
